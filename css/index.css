@@ -69,6 +69,14 @@ body {
 
 
 /* TEXTOS */
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 h2 {
     font-family: "Poppins", sans-serif;
     color: white;
@@ -76,7 +84,14 @@ h2 {
     font-weight: 600;
     position: relative;
 }
-
+/* libre-baskerville-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/libre-baskerville-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 h3 {
     font-family: "Libre Baskerville", serif;
     color: white;
@@ -84,6 +99,7 @@ h3 {
     transform: translateY(-30px);
     position: relative;
 }
+
 /* FONDOS */
 .Backgrounds-img {
     display: flex;
