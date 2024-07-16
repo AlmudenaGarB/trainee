@@ -71,7 +71,7 @@ body {
 /* TEXTOS */
 /* poppins-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap; 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -86,7 +86,7 @@ body {
   }
   /* libre-baskerville-regular - latin */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: 'Libre Baskerville';
     font-style: normal;
     font-weight: 400;
